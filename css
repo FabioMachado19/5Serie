@@ -1,0 +1,73 @@
+.cta-banner {
+  width: 100%;
+  background: #0a0a0a;
+  padding: 14px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 12px;
+  color: #fff;
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999;
+  box-shadow: 0 8px 22px rgba(0,0,0,0.4);
+  font-family: 'Inter', sans-serif;
+}
+
+.cta-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cta-left strong {
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.cta-left p {
+  margin: 0;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  background: #4cff4c;
+  border-radius: 50%;
+  animation: pulse 1s infinite alternate;
+}
+
+@keyframes pulse {
+  0% { opacity: 0.4; }
+  100% { opacity: 1; }
+}
+
+.cta-button {
+  background: #25d366;
+  color: #000;
+  padding: 10px 22px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 10px;
+  font-size: 15px;
+  transition: 0.2s;
+}
+
+.cta-button:hover {
+  background: #20c05a;
+}
+
+.cta-close {
+  cursor: pointer;
+  font-size: 20px;
+  margin-left: 15px;
+  opacity: 0.6;
+}
+
+.cta-close:hover {
+  opacity: 1;
+}
